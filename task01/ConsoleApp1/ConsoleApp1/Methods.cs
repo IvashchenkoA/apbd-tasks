@@ -5,9 +5,9 @@ public class Methods
     public static double CalculateAverage(int[] a)
     {
         int s = 0;
-        foreach(int n in a)
+        foreach(int val in a)
         {
-            s += n;
+            s += val;
         }
         return (double)s/a.Length;
     }
